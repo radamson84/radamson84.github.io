@@ -24,7 +24,7 @@ gdjs.Start_32MenuCode.condition1IsTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x76cc2c = function(runtimeScene) {
+gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x6c4d2c = function(runtimeScene) {
 
 {
 
@@ -82,8 +82,8 @@ gdjs.Start_32MenuCode.GDDebugModeSelectionObjects1.createFrom(runtimeScene.getOb
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x76cc2c
-gdjs.Start_32MenuCode.eventsList0x76c664 = function(runtimeScene) {
+}; //End of gdjs.Start_32MenuCode.eventsList0x6c4d2c
+gdjs.Start_32MenuCode.eventsList0x7d5fac = function(runtimeScene) {
 
 {
 
@@ -120,13 +120,13 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x76cc2c(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x6c4d2c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x76c664
+}; //End of gdjs.Start_32MenuCode.eventsList0x7d5fac
 gdjs.Start_32MenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -177,7 +177,7 @@ if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x76c664(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x7d5fac(runtimeScene);} //End of subevents
 }
 
 }
