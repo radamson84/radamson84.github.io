@@ -38,6 +38,12 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects3= [];
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects1= [];
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects2= [];
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects3= [];
+gdjs.Main_32GameCode.GDFloorTileObjects1= [];
+gdjs.Main_32GameCode.GDFloorTileObjects2= [];
+gdjs.Main_32GameCode.GDFloorTileObjects3= [];
+gdjs.Main_32GameCode.GDScoreFlashObjects1= [];
+gdjs.Main_32GameCode.GDScoreFlashObjects2= [];
+gdjs.Main_32GameCode.GDScoreFlashObjects3= [];
 
 gdjs.Main_32GameCode.conditionTrue_0 = {val:false};
 gdjs.Main_32GameCode.condition0IsTrue_0 = {val:false};
@@ -51,7 +57,7 @@ gdjs.Main_32GameCode.condition2IsTrue_1 = {val:false};
 gdjs.Main_32GameCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDGunObjects1Objects = Hashtable.newFrom({"Gun": gdjs.Main_32GameCode.GDGunObjects1});gdjs.Main_32GameCode.eventsList0x6c2674 = function(runtimeScene) {
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDGunObjects1Objects = Hashtable.newFrom({"Gun": gdjs.Main_32GameCode.GDGunObjects1});gdjs.Main_32GameCode.eventsList0x76fb3c = function(runtimeScene) {
 
 {
 
@@ -77,8 +83,8 @@ gdjs.Main_32GameCode.GDInvincibilityDisplayObjects1.createFrom(runtimeScene.getO
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c2674
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects1Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects2Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.eventsList0x7d6164 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x76fb3c
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects1Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects2Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.eventsList0x77259c = function(runtimeScene) {
 
 {
 
@@ -98,8 +104,8 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.linkedObjects.pickOb
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x7d6164
-gdjs.Main_32GameCode.eventsList0x6c6f64 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x77259c
+gdjs.Main_32GameCode.eventsList0x771b94 = function(runtimeScene) {
 
 {
 
@@ -152,14 +158,14 @@ gdjs.Main_32GameCode.GDChickenObjects1.length = 0;
 }{gdjs.evtTools.linkedObjects.linkObjects(runtimeScene, (gdjs.Main_32GameCode.GDBalloonObjects1.length !== 0 ? gdjs.Main_32GameCode.GDBalloonObjects1[0] : null), (gdjs.Main_32GameCode.GDChickenObjects1.length !== 0 ? gdjs.Main_32GameCode.GDChickenObjects1[0] : null));
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x7d6164(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x77259c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c6f64
-gdjs.Main_32GameCode.eventsList0x6d9c5c = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x771b94
+gdjs.Main_32GameCode.eventsList0x772e34 = function(runtimeScene) {
 
 {
 
@@ -195,8 +201,8 @@ gdjs.Main_32GameCode.GDHealthDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6d9c5c
-gdjs.Main_32GameCode.eventsList0x6da494 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x772e34
+gdjs.Main_32GameCode.eventsList0x7735e4 = function(runtimeScene) {
 
 {
 
@@ -214,8 +220,8 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6da494
-gdjs.Main_32GameCode.eventsList0x6da8cc = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x7735e4
+gdjs.Main_32GameCode.eventsList0x773a1c = function(runtimeScene) {
 
 {
 
@@ -233,8 +239,8 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6da8cc
-gdjs.Main_32GameCode.eventsList0x6dad44 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x773a1c
+gdjs.Main_32GameCode.eventsList0x773e94 = function(runtimeScene) {
 
 {
 
@@ -252,8 +258,8 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6dad44
-gdjs.Main_32GameCode.eventsList0x6c7534 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x773e94
+gdjs.Main_32GameCode.eventsList0x77430c = function(runtimeScene) {
 
 {
 
@@ -271,8 +277,8 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c7534
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.eventsList0x6c06c4 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x77430c
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.eventsList0x775a3c = function(runtimeScene) {
 
 {
 
@@ -308,8 +314,8 @@ gdjs.Main_32GameCode.GDHealthDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c06c4
-gdjs.Main_32GameCode.eventsList0x6c121c = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x775a3c
+gdjs.Main_32GameCode.eventsList0x776594 = function(runtimeScene) {
 
 {
 
@@ -357,8 +363,8 @@ gdjs.Main_32GameCode.GDInvincibilityDisplayObjects1.createFrom(runtimeScene.getO
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c121c
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects1Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects2Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects2Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects2Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects2});gdjs.Main_32GameCode.eventsList0x6c1d64 = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x776594
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects1Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects = Hashtable.newFrom({"ScoreFlash": gdjs.Main_32GameCode.GDScoreFlashObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects2Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects2Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects2});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects2Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects2});gdjs.Main_32GameCode.eventsList0x7770dc = function(runtimeScene) {
 
 {
 
@@ -455,8 +461,8 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.linkedObjects.pickOb
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c1d64
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.eventsList0x6c56fc = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x7770dc
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects = Hashtable.newFrom({"ScoreFlash": gdjs.Main_32GameCode.GDScoreFlashObjects1});gdjs.Main_32GameCode.eventsList0x77861c = function(runtimeScene) {
 
 {
 
@@ -475,8 +481,8 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c56fc
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.eventsList0x6c604c = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x77861c
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects = Hashtable.newFrom({"ScoreFlash": gdjs.Main_32GameCode.GDScoreFlashObjects1});gdjs.Main_32GameCode.eventsList0x7791ec = function(runtimeScene) {
 
 {
 
@@ -495,8 +501,8 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6c604c
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects2Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects2});gdjs.Main_32GameCode.eventsList0x6cdd8c = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x7791ec
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDChickenObjects1Objects = Hashtable.newFrom({"Chicken": gdjs.Main_32GameCode.GDChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects = Hashtable.newFrom({"ScoreFlash": gdjs.Main_32GameCode.GDScoreFlashObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects = Hashtable.newFrom({"CookedChicken": gdjs.Main_32GameCode.GDCookedChickenObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects2Objects = Hashtable.newFrom({"Balloon": gdjs.Main_32GameCode.GDBalloonObjects2});gdjs.Main_32GameCode.eventsList0x779d8c = function(runtimeScene) {
 
 {
 
@@ -535,8 +541,8 @@ gdjs.Main_32GameCode.GDCookedChickenObjects2.createFrom(gdjs.Main_32GameCode.GDC
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6cdd8c
-gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.eventsList0x6ceeec = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x779d8c
+gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects = Hashtable.newFrom({"Bullet": gdjs.Main_32GameCode.GDBulletObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects = Hashtable.newFrom({"ScoreFlash": gdjs.Main_32GameCode.GDScoreFlashObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDSharkObjects1Objects = Hashtable.newFrom({"Shark": gdjs.Main_32GameCode.GDSharkObjects1});gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBombObjects1Objects = Hashtable.newFrom({"Bomb": gdjs.Main_32GameCode.GDBombObjects1});gdjs.Main_32GameCode.eventsList0x77b5d4 = function(runtimeScene) {
 
 {
 
@@ -572,8 +578,8 @@ gdjs.Main_32GameCode.GDHealthDisplayObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6ceeec
-gdjs.Main_32GameCode.eventsList0x6baccc = function(runtimeScene) {
+}; //End of gdjs.Main_32GameCode.eventsList0x77b5d4
+gdjs.Main_32GameCode.eventsList0x77d334 = function(runtimeScene) {
 
 {
 
@@ -601,7 +607,7 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }
 
 
-}; //End of gdjs.Main_32GameCode.eventsList0x6baccc
+}; //End of gdjs.Main_32GameCode.eventsList0x77d334
 gdjs.Main_32GameCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -649,7 +655,7 @@ gdjs.Main_32GameCode.GDSharkObjects1.length = 0;
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "01_-_Syobon_Action_-_W32_-_Titerman.ogg", true, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c2674(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x76fb3c(runtimeScene);} //End of subevents
 }
 
 }
@@ -800,7 +806,7 @@ gdjs.Main_32GameCode.GDBalloonObjects1.length = 0;
 }
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c6f64(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x771b94(runtimeScene);} //End of subevents
 }
 
 }
@@ -816,7 +822,7 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerEl
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "HungerTimer");
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6d9c5c(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x772e34(runtimeScene);} //End of subevents
 }
 
 }
@@ -832,14 +838,14 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7185732);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7812756);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("Hunger").setNumber(4);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6da494(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x7735e4(runtimeScene);} //End of subevents
 }
 
 }
@@ -855,14 +861,14 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7186876);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7813900);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("Hunger").setNumber(3);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6da8cc(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x773a1c(runtimeScene);} //End of subevents
 }
 
 }
@@ -878,14 +884,14 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7106988);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7815044);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("Hunger").setNumber(2);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6dad44(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x773e94(runtimeScene);} //End of subevents
 }
 
 }
@@ -901,14 +907,14 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7108132);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7816188);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("Hunger").setNumber(1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c7534(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x77430c(runtimeScene);} //End of subevents
 }
 
 }
@@ -924,7 +930,7 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerEl
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7109252);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7817308);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
@@ -1146,7 +1152,7 @@ gdjs.Main_32GameCode.GDBulletObjects1.length = 0;
 }{gdjs.evtTools.sound.playSound(runtimeScene, "magnum.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c06c4(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x775a3c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1166,7 +1172,7 @@ gdjs.Main_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c121c(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x776594(runtimeScene);} //End of subevents
 }
 
 }
@@ -1188,10 +1194,20 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = false;
 {
 gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBulletObjects1Objects, gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDBalloonObjects1Objects, false, runtimeScene, false);
 }if (gdjs.Main_32GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Main_32GameCode.GDBalloonObjects1 */
 /* Reuse gdjs.Main_32GameCode.GDBulletObjects1 */
 gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("ScoreDisplay"));
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+
 {for(var i = 0, len = gdjs.Main_32GameCode.GDBulletObjects1.length ;i < len;++i) {
     gdjs.Main_32GameCode.GDBulletObjects1[i].returnVariable(gdjs.Main_32GameCode.GDBulletObjects1[i].getVariables().getFromIndex(0)).add(1);
+}
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects, (( gdjs.Main_32GameCode.GDBalloonObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDBalloonObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDBalloonObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDBalloonObjects1[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].setString("" + gdjs.evtTools.common.toString((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10))));
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].resetTimer("FlashTimer");
 }
 }{runtimeScene.getGame().getVariables().get("Score").add((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10)));
 }{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreDisplayObjects1.length ;i < len;++i) {
@@ -1201,7 +1217,7 @@ gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("
 }{gdjs.evtTools.sound.playSound(runtimeScene, "targ1.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c1d64(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x7770dc(runtimeScene);} //End of subevents
 }
 
 }
@@ -1239,10 +1255,20 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 gdjs.Main_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Health")) > 0;
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
+gdjs.Main_32GameCode.GDChickenObjects1.createFrom(runtimeScene.getObjects("Chicken"));
 /* Reuse gdjs.Main_32GameCode.GDCookedChickenObjects1 */
 gdjs.Main_32GameCode.GDHealthDisplayObjects1.createFrom(runtimeScene.getObjects("HealthDisplay"));
 gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("ScoreDisplay"));
-{for(var i = 0, len = gdjs.Main_32GameCode.GDCookedChickenObjects1.length ;i < len;++i) {
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].setString("" + gdjs.evtTools.common.toString(20));
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].resetTimer("FlashTimer");
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDCookedChickenObjects1.length ;i < len;++i) {
     gdjs.Main_32GameCode.GDCookedChickenObjects1[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().get("Score").add(20);
@@ -1256,7 +1282,7 @@ gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("
 }{gdjs.evtTools.sound.playSound(runtimeScene, "croc_die.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c56fc(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x77861c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1279,7 +1305,16 @@ if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.Main_32GameCode.GDChickenObjects1 */
 gdjs.Main_32GameCode.GDHealthDisplayObjects1.createFrom(runtimeScene.getObjects("HealthDisplay"));
 gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("ScoreDisplay"));
-{for(var i = 0, len = gdjs.Main_32GameCode.GDChickenObjects1.length ;i < len;++i) {
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].setString("" + gdjs.evtTools.common.toString(10));
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].resetTimer("FlashTimer");
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDChickenObjects1.length ;i < len;++i) {
     gdjs.Main_32GameCode.GDChickenObjects1[i].deleteFromScene(runtimeScene);
 }
 }{runtimeScene.getGame().getVariables().get("Score").add(10);
@@ -1293,7 +1328,7 @@ gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("
 }{gdjs.evtTools.sound.playSound(runtimeScene, "croc_die.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6c604c(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x7791ec(runtimeScene);} //End of subevents
 }
 
 }
@@ -1313,7 +1348,19 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("ScoreDisplay"));
 gdjs.Main_32GameCode.GDCookedChickenObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointY("")), "");
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+
+{for(var i = 0, len = gdjs.Main_32GameCode.GDBulletObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDBulletObjects1[i].returnVariable(gdjs.Main_32GameCode.GDBulletObjects1[i].getVariables().getFromIndex(0)).add(1);
+}
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].setString("" + gdjs.evtTools.common.toString((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10))));
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].resetTimer("FlashTimer");
+}
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDCookedChickenObjects1Objects, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getPointY("")), "");
 }{for(var i = 0, len = gdjs.Main_32GameCode.GDCookedChickenObjects1.length ;i < len;++i) {
     gdjs.Main_32GameCode.GDCookedChickenObjects1[i].addForce(0, (( gdjs.Main_32GameCode.GDChickenObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDChickenObjects1[0].getAverageForce().getY()), 1);
 }
@@ -1327,7 +1374,7 @@ gdjs.Main_32GameCode.GDCookedChickenObjects1.length = 0;
 }
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6cdd8c(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x779d8c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1345,7 +1392,19 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 /* Reuse gdjs.Main_32GameCode.GDBombObjects1 */
 /* Reuse gdjs.Main_32GameCode.GDBulletObjects1 */
 gdjs.Main_32GameCode.GDScoreDisplayObjects1.createFrom(runtimeScene.getObjects("ScoreDisplay"));
-{runtimeScene.getGame().getVariables().get("Score").add((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10)));
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+
+{for(var i = 0, len = gdjs.Main_32GameCode.GDBulletObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDBulletObjects1[i].returnVariable(gdjs.Main_32GameCode.GDBulletObjects1[i].getVariables().getFromIndex(0)).add(1);
+}
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Main_32GameCode.mapOfGDgdjs_46Main_9532GameCode_46GDScoreFlashObjects1Objects, (( gdjs.Main_32GameCode.GDBombObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDBombObjects1[0].getPointX("")), (( gdjs.Main_32GameCode.GDBombObjects1.length === 0 ) ? 0 :gdjs.Main_32GameCode.GDBombObjects1[0].getPointY("")), "");
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].setString("" + gdjs.evtTools.common.toString((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10))));
+}
+}{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].resetTimer("FlashTimer");
+}
+}{runtimeScene.getGame().getVariables().get("Score").add((((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * (gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) * 10) - (((gdjs.RuntimeObject.getVariableNumber(((gdjs.Main_32GameCode.GDBulletObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.Main_32GameCode.GDBulletObjects1[0].getVariables()).getFromIndex(0))) - 1) * 10)));
 }{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreDisplayObjects1.length ;i < len;++i) {
     gdjs.Main_32GameCode.GDScoreDisplayObjects1[i].setString("Score: " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score")));
 }
@@ -1377,7 +1436,7 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 }{gdjs.evtTools.sound.playSound(runtimeScene, "explos1.wav", false, 100, 1);
 }
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6ceeec(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x77b5d4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1599,6 +1658,29 @@ gdjs.Main_32GameCode.GDBombObjects1.length = k;}if (gdjs.Main_32GameCode.conditi
 
 {
 
+gdjs.Main_32GameCode.GDScoreFlashObjects1.createFrom(runtimeScene.getObjects("ScoreFlash"));
+
+gdjs.Main_32GameCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.Main_32GameCode.GDScoreFlashObjects1.length;i<l;++i) {
+    if ( gdjs.Main_32GameCode.GDScoreFlashObjects1[i].timerElapsedTime("FlashTimer", 2) ) {
+        gdjs.Main_32GameCode.condition0IsTrue_0.val = true;
+        gdjs.Main_32GameCode.GDScoreFlashObjects1[k] = gdjs.Main_32GameCode.GDScoreFlashObjects1[i];
+        ++k;
+    }
+}
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = k;}if (gdjs.Main_32GameCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.Main_32GameCode.GDScoreFlashObjects1 */
+{for(var i = 0, len = gdjs.Main_32GameCode.GDScoreFlashObjects1.length ;i < len;++i) {
+    gdjs.Main_32GameCode.GDScoreFlashObjects1[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+{
+
 
 
 }
@@ -1614,7 +1696,7 @@ gdjs.Main_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 }if ( gdjs.Main_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_32GameCode.conditionTrue_1 = gdjs.Main_32GameCode.condition1IsTrue_0;
-gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7056012);
+gdjs.Main_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7852276);
 }
 }}
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
@@ -1642,7 +1724,7 @@ gdjs.Main_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNu
 if (gdjs.Main_32GameCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.Main_32GameCode.eventsList0x6baccc(runtimeScene);} //End of subevents
+gdjs.Main_32GameCode.eventsList0x77d334(runtimeScene);} //End of subevents
 }
 
 }
@@ -1693,6 +1775,12 @@ gdjs.Main_32GameCode.GDHungerDisplayObjects3.length = 0;
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects1.length = 0;
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects2.length = 0;
 gdjs.Main_32GameCode.GDInvincibilityDisplayObjects3.length = 0;
+gdjs.Main_32GameCode.GDFloorTileObjects1.length = 0;
+gdjs.Main_32GameCode.GDFloorTileObjects2.length = 0;
+gdjs.Main_32GameCode.GDFloorTileObjects3.length = 0;
+gdjs.Main_32GameCode.GDScoreFlashObjects1.length = 0;
+gdjs.Main_32GameCode.GDScoreFlashObjects2.length = 0;
+gdjs.Main_32GameCode.GDScoreFlashObjects3.length = 0;
 
 gdjs.Main_32GameCode.eventsList0x5b70b8(runtimeScene);
 return;

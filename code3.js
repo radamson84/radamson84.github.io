@@ -39,7 +39,7 @@ gdjs.High_32ScoresCode.condition1IsTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.High_32ScoresCode.eventsList0x6bbce4 = function(runtimeScene) {
+gdjs.High_32ScoresCode.eventsList0x769e0c = function(runtimeScene) {
 
 {
 
@@ -291,7 +291,7 @@ gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariable
 }
 
 
-}; //End of gdjs.High_32ScoresCode.eventsList0x6bbce4
+}; //End of gdjs.High_32ScoresCode.eventsList0x769e0c
 gdjs.High_32ScoresCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -344,7 +344,7 @@ gdjs.High_32ScoresCode.GDScoreName5Objects1.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.High_32ScoresCode.eventsList0x6bbce4(runtimeScene);} //End of subevents
+gdjs.High_32ScoresCode.eventsList0x769e0c(runtimeScene);} //End of subevents
 }
 
 }
