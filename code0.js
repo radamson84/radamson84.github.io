@@ -14,16 +14,18 @@ gdjs.BootCode.condition0IsTrue_0.val = false;
 {
 gdjs.BootCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.BootCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().get("Score1").setNumber(2000);
-}{runtimeScene.getGame().getVariables().get("Score2").setNumber(1600);
-}{runtimeScene.getGame().getVariables().get("Score3").setNumber(1150);
-}{runtimeScene.getGame().getVariables().get("Score4").setNumber(800);
-}{runtimeScene.getGame().getVariables().get("Score5").setNumber(550);
-}{runtimeScene.getGame().getVariables().get("Name1").setString("Makoto");
-}{runtimeScene.getGame().getVariables().get("Name2").setString("Chihiro");
-}{runtimeScene.getGame().getVariables().get("Name3").setString("Toko");
-}{runtimeScene.getGame().getVariables().get("Name4").setString("Byakuya");
-}{runtimeScene.getGame().getVariables().get("Name5").setString("Celest");
+{runtimeScene.getGame().getVariables().get("Score1").setNumber(5680);
+}{runtimeScene.getGame().getVariables().get("Score2").setNumber(4760);
+}{runtimeScene.getGame().getVariables().get("Score3").setNumber(3840);
+}{runtimeScene.getGame().getVariables().get("Score4").setNumber(2300);
+}{runtimeScene.getGame().getVariables().get("Score5").setNumber(1620);
+}{runtimeScene.getGame().getVariables().get("Name1").setString("Nagito");
+}{runtimeScene.getGame().getVariables().get("Name2").setString("Chiaki");
+}{runtimeScene.getGame().getVariables().get("Name3").setString("Hajime");
+}{runtimeScene.getGame().getVariables().get("Name4").setString("Fuyuhiko");
+}{runtimeScene.getGame().getVariables().get("Name5").setString("Hiyoko");
+}{runtimeScene.getGame().getVariables().get("MusicVolume").setNumber(5);
+}{runtimeScene.getGame().getVariables().get("SoundVolume").setNumber(5);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start Menu", false);
 }}
 

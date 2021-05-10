@@ -32,6 +32,9 @@ gdjs.High_32ScoresCode.GDScoreDisplay4Objects3= [];
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects1= [];
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects2= [];
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects3= [];
+gdjs.High_32ScoresCode.GDContinueObjects1= [];
+gdjs.High_32ScoresCode.GDContinueObjects2= [];
+gdjs.High_32ScoresCode.GDContinueObjects3= [];
 
 gdjs.High_32ScoresCode.conditionTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition0IsTrue_0 = {val:false};
@@ -39,7 +42,7 @@ gdjs.High_32ScoresCode.condition1IsTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.High_32ScoresCode.eventsList0x6c6364 = function(runtimeScene) {
+gdjs.High_32ScoresCode.eventsList0x98944c = function(runtimeScene) {
 
 {
 
@@ -291,7 +294,7 @@ gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariable
 }
 
 
-}; //End of gdjs.High_32ScoresCode.eventsList0x6c6364
+}; //End of gdjs.High_32ScoresCode.eventsList0x98944c
 gdjs.High_32ScoresCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -344,7 +347,7 @@ gdjs.High_32ScoresCode.GDScoreName5Objects1.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.High_32ScoresCode.eventsList0x6c6364(runtimeScene);} //End of subevents
+gdjs.High_32ScoresCode.eventsList0x98944c(runtimeScene);} //End of subevents
 }
 
 }
@@ -362,7 +365,8 @@ gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed
 gdjs.High_32ScoresCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "HighScoreDelay");
 }}
 if (gdjs.High_32ScoresCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start Menu", false);
+{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start Menu", false);
 }}
 
 }
@@ -407,6 +411,9 @@ gdjs.High_32ScoresCode.GDScoreDisplay4Objects3.length = 0;
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects1.length = 0;
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects2.length = 0;
 gdjs.High_32ScoresCode.GDScoreDisplay5Objects3.length = 0;
+gdjs.High_32ScoresCode.GDContinueObjects1.length = 0;
+gdjs.High_32ScoresCode.GDContinueObjects2.length = 0;
+gdjs.High_32ScoresCode.GDContinueObjects3.length = 0;
 
 gdjs.High_32ScoresCode.eventsList0x5b70b8(runtimeScene);
 return;

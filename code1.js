@@ -17,6 +17,12 @@ gdjs.Start_32MenuCode.GDControlsDisplayObjects3= [];
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects1= [];
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects2= [];
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects3= [];
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects1= [];
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects2= [];
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects3= [];
+gdjs.Start_32MenuCode.GDAudioDisplayObjects1= [];
+gdjs.Start_32MenuCode.GDAudioDisplayObjects2= [];
+gdjs.Start_32MenuCode.GDAudioDisplayObjects3= [];
 
 gdjs.Start_32MenuCode.conditionTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition0IsTrue_0 = {val:false};
@@ -24,7 +30,7 @@ gdjs.Start_32MenuCode.condition1IsTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x6c4d2c = function(runtimeScene) {
+gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x898424 = function(runtimeScene) {
 
 {
 
@@ -48,7 +54,7 @@ gdjs.Start_32MenuCode.GDDebugModeSelectionObjects2.createFrom(runtimeScene.getOb
 }
 }{runtimeScene.getGame().getVariables().get("DebugMode").setNumber(0);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }}
 
 }
@@ -76,14 +82,14 @@ gdjs.Start_32MenuCode.GDDebugModeSelectionObjects1.createFrom(runtimeScene.getOb
 }
 }{runtimeScene.getGame().getVariables().get("DebugMode").setNumber(1);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }}
 
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x6c4d2c
-gdjs.Start_32MenuCode.eventsList0x7d5fac = function(runtimeScene) {
+}; //End of gdjs.Start_32MenuCode.eventsList0x898424
+gdjs.Start_32MenuCode.eventsList0x75e6a4 = function(runtimeScene) {
 
 {
 
@@ -118,15 +124,41 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 {
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) == 2;
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Instructions", false);
+}}
+
+}
+
+
+{
+
+
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) == 3;
+}if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Audio Menu", false);
+}}
+
+}
+
+
+{
+
+
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) == 4;
+}if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x6c4d2c(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x898424(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x7d5fac
+}; //End of gdjs.Start_32MenuCode.eventsList0x75e6a4
 gdjs.Start_32MenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -146,7 +178,7 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJ
 gdjs.Start_32MenuCode.GDSelectorObjects1.length = 0;
 
 {runtimeScene.getVariables().get("Selection").setNumber(0);
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects, 420, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 172, "");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects, 410, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 156, "");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
 }{runtimeScene.getGame().getVariables().get("DebugMode").setNumber(0);
 }{runtimeScene.getGame().getVariables().get("Score").setNumber(0);
@@ -174,10 +206,10 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 gdjs.Start_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "MenuDelay");
 }}
 if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x7d5fac(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x75e6a4(runtimeScene);} //End of subevents
 }
 
 }
@@ -198,10 +230,10 @@ if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
 {runtimeScene.getVariables().get("Selection").sub(1);
 }{for(var i = 0, len = gdjs.Start_32MenuCode.GDSelectorObjects1.length ;i < len;++i) {
-    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 172);
+    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 156);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }}
 
 }
@@ -222,10 +254,10 @@ if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
 {runtimeScene.getVariables().get("Selection").add(1);
 }{for(var i = 0, len = gdjs.Start_32MenuCode.GDSelectorObjects1.length ;i < len;++i) {
-    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 172);
+    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 156);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
-}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }}
 
 }
@@ -243,12 +275,12 @@ gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Sel
 
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) > 2;
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) > 4;
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
 {runtimeScene.getVariables().get("Selection").setNumber(0);
 }{for(var i = 0, len = gdjs.Start_32MenuCode.GDSelectorObjects1.length ;i < len;++i) {
-    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 172);
+    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 156);
 }
 }}
 
@@ -263,9 +295,9 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) < 0;
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
-{runtimeScene.getVariables().get("Selection").setNumber(2);
+{runtimeScene.getVariables().get("Selection").setNumber(4);
 }{for(var i = 0, len = gdjs.Start_32MenuCode.GDSelectorObjects1.length ;i < len;++i) {
-    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 172);
+    gdjs.Start_32MenuCode.GDSelectorObjects1[i].setY((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Selection")) * 40) + 156);
 }
 }}
 
@@ -296,6 +328,12 @@ gdjs.Start_32MenuCode.GDControlsDisplayObjects3.length = 0;
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects1.length = 0;
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects2.length = 0;
 gdjs.Start_32MenuCode.GDDebugControlsDisplayObjects3.length = 0;
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects1.length = 0;
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects2.length = 0;
+gdjs.Start_32MenuCode.GDInstructionsSelectionObjects3.length = 0;
+gdjs.Start_32MenuCode.GDAudioDisplayObjects1.length = 0;
+gdjs.Start_32MenuCode.GDAudioDisplayObjects2.length = 0;
+gdjs.Start_32MenuCode.GDAudioDisplayObjects3.length = 0;
 
 gdjs.Start_32MenuCode.eventsList0x5b70b8(runtimeScene);
 return;
