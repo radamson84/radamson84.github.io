@@ -23,6 +23,9 @@ gdjs.Start_32MenuCode.GDInstructionsSelectionObjects3= [];
 gdjs.Start_32MenuCode.GDAudioDisplayObjects1= [];
 gdjs.Start_32MenuCode.GDAudioDisplayObjects2= [];
 gdjs.Start_32MenuCode.GDAudioDisplayObjects3= [];
+gdjs.Start_32MenuCode.GDTitleObjects1= [];
+gdjs.Start_32MenuCode.GDTitleObjects2= [];
+gdjs.Start_32MenuCode.GDTitleObjects3= [];
 
 gdjs.Start_32MenuCode.conditionTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition0IsTrue_0 = {val:false};
@@ -30,7 +33,7 @@ gdjs.Start_32MenuCode.condition1IsTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x898424 = function(runtimeScene) {
+gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x87f6fc = function(runtimeScene) {
 
 {
 
@@ -88,8 +91,8 @@ gdjs.Start_32MenuCode.GDDebugModeSelectionObjects1.createFrom(runtimeScene.getOb
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x898424
-gdjs.Start_32MenuCode.eventsList0x75e6a4 = function(runtimeScene) {
+}; //End of gdjs.Start_32MenuCode.eventsList0x87f6fc
+gdjs.Start_32MenuCode.eventsList0x8420f4 = function(runtimeScene) {
 
 {
 
@@ -152,13 +155,13 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x898424(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x87f6fc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x75e6a4
+}; //End of gdjs.Start_32MenuCode.eventsList0x8420f4
 gdjs.Start_32MenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -209,7 +212,7 @@ if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x75e6a4(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x8420f4(runtimeScene);} //End of subevents
 }
 
 }
@@ -334,6 +337,9 @@ gdjs.Start_32MenuCode.GDInstructionsSelectionObjects3.length = 0;
 gdjs.Start_32MenuCode.GDAudioDisplayObjects1.length = 0;
 gdjs.Start_32MenuCode.GDAudioDisplayObjects2.length = 0;
 gdjs.Start_32MenuCode.GDAudioDisplayObjects3.length = 0;
+gdjs.Start_32MenuCode.GDTitleObjects1.length = 0;
+gdjs.Start_32MenuCode.GDTitleObjects2.length = 0;
+gdjs.Start_32MenuCode.GDTitleObjects3.length = 0;
 
 gdjs.Start_32MenuCode.eventsList0x5b70b8(runtimeScene);
 return;

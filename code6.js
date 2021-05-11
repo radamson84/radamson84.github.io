@@ -26,7 +26,7 @@ gdjs.Audio_32MenuCode.condition1IsTrue_0 = {val:false};
 gdjs.Audio_32MenuCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Audio_32MenuCode.mapOfGDgdjs_46Audio_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Audio_32MenuCode.GDSelectorObjects1});gdjs.Audio_32MenuCode.eventsList0x80771c = function(runtimeScene) {
+gdjs.Audio_32MenuCode.mapOfGDgdjs_46Audio_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Audio_32MenuCode.GDSelectorObjects1});gdjs.Audio_32MenuCode.eventsList0x8c66b4 = function(runtimeScene) {
 
 {
 
@@ -60,8 +60,8 @@ gdjs.Audio_32MenuCode.GDMusicLevelObjects2.createFrom(runtimeScene.getObjects("M
 }
 
 
-}; //End of gdjs.Audio_32MenuCode.eventsList0x80771c
-gdjs.Audio_32MenuCode.eventsList0x988fbc = function(runtimeScene) {
+}; //End of gdjs.Audio_32MenuCode.eventsList0x8c66b4
+gdjs.Audio_32MenuCode.eventsList0x8478b4 = function(runtimeScene) {
 
 {
 
@@ -95,8 +95,8 @@ gdjs.Audio_32MenuCode.GDSoundLevelObjects2.createFrom(runtimeScene.getObjects("S
 }
 
 
-}; //End of gdjs.Audio_32MenuCode.eventsList0x988fbc
-gdjs.Audio_32MenuCode.eventsList0x98e2f4 = function(runtimeScene) {
+}; //End of gdjs.Audio_32MenuCode.eventsList0x8478b4
+gdjs.Audio_32MenuCode.eventsList0x8986a4 = function(runtimeScene) {
 
 {
 
@@ -110,7 +110,7 @@ gdjs.Audio_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
 }
 { //Subevents
-gdjs.Audio_32MenuCode.eventsList0x80771c(runtimeScene);} //End of subevents
+gdjs.Audio_32MenuCode.eventsList0x8c66b4(runtimeScene);} //End of subevents
 }
 
 }
@@ -127,7 +127,7 @@ gdjs.Audio_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
 }
 { //Subevents
-gdjs.Audio_32MenuCode.eventsList0x988fbc(runtimeScene);} //End of subevents
+gdjs.Audio_32MenuCode.eventsList0x8478b4(runtimeScene);} //End of subevents
 }
 
 }
@@ -147,7 +147,7 @@ gdjs.Audio_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }
 
 
-}; //End of gdjs.Audio_32MenuCode.eventsList0x98e2f4
+}; //End of gdjs.Audio_32MenuCode.eventsList0x8986a4
 gdjs.Audio_32MenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -204,7 +204,7 @@ gdjs.Audio_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 if (gdjs.Audio_32MenuCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.Audio_32MenuCode.eventsList0x98e2f4(runtimeScene);} //End of subevents
+gdjs.Audio_32MenuCode.eventsList0x8986a4(runtimeScene);} //End of subevents
 }
 
 }
