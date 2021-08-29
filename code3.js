@@ -40,9 +40,15 @@ gdjs.High_32ScoresCode.conditionTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition0IsTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition1IsTrue_0 = {val:false};
 gdjs.High_32ScoresCode.condition2IsTrue_0 = {val:false};
+gdjs.High_32ScoresCode.condition3IsTrue_0 = {val:false};
+gdjs.High_32ScoresCode.conditionTrue_1 = {val:false};
+gdjs.High_32ScoresCode.condition0IsTrue_1 = {val:false};
+gdjs.High_32ScoresCode.condition1IsTrue_1 = {val:false};
+gdjs.High_32ScoresCode.condition2IsTrue_1 = {val:false};
+gdjs.High_32ScoresCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.High_32ScoresCode.eventsList0x6c7b94 = function(runtimeScene) {
+gdjs.High_32ScoresCode.eventsList0x6aa6ac = function(runtimeScene) {
 
 {
 
@@ -239,62 +245,130 @@ gdjs.High_32ScoresCode.condition0IsTrue_0.val = false;
 {
 gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score")) > gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score1"));
 }if (gdjs.High_32ScoresCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.High_32ScoresCode.GDScoreDisplay1Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreDisplay2Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreDisplay3Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreDisplay4Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreDisplay5Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreName1Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreName2Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreName3Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreName4Objects1 */
-/* Reuse gdjs.High_32ScoresCode.GDScoreName5Objects1 */
+gdjs.High_32ScoresCode.GDScoreDisplay1Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreDisplay1Objects1);
+
+gdjs.High_32ScoresCode.GDScoreDisplay2Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreDisplay2Objects1);
+
+gdjs.High_32ScoresCode.GDScoreDisplay3Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreDisplay3Objects1);
+
+gdjs.High_32ScoresCode.GDScoreDisplay4Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreDisplay4Objects1);
+
+gdjs.High_32ScoresCode.GDScoreDisplay5Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreDisplay5Objects1);
+
+gdjs.High_32ScoresCode.GDScoreName1Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreName1Objects1);
+
+gdjs.High_32ScoresCode.GDScoreName2Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreName2Objects1);
+
+gdjs.High_32ScoresCode.GDScoreName3Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreName3Objects1);
+
+gdjs.High_32ScoresCode.GDScoreName4Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreName4Objects1);
+
+gdjs.High_32ScoresCode.GDScoreName5Objects2.createFrom(gdjs.High_32ScoresCode.GDScoreName5Objects1);
+
 {runtimeScene.getGame().getVariables().get("Score5").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score4")));
 }{runtimeScene.getGame().getVariables().get("Name5").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name4")));
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay5Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreDisplay5Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score5")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay5Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreDisplay5Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score5")));
 }
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName5Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreName5Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name5")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName5Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreName5Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name5")));
 }
 }{runtimeScene.getGame().getVariables().get("Score4").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score3")));
 }{runtimeScene.getGame().getVariables().get("Name4").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name3")));
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay4Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreDisplay4Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score4")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay4Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreDisplay4Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score4")));
 }
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName4Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreName4Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name4")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName4Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreName4Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name4")));
 }
 }{runtimeScene.getGame().getVariables().get("Score3").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score2")));
 }{runtimeScene.getGame().getVariables().get("Name3").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name2")));
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay3Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreDisplay3Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score3")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay3Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreDisplay3Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score3")));
 }
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName3Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreName3Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name3")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName3Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreName3Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name3")));
 }
 }{runtimeScene.getGame().getVariables().get("Score2").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score1")));
 }{runtimeScene.getGame().getVariables().get("Name2").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name1")));
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay2Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreDisplay2Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score2")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay2Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreDisplay2Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score2")));
 }
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName2Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreName2Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name2")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName2Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreName2Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name2")));
 }
 }{runtimeScene.getGame().getVariables().get("Score1").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Score")));
 }{runtimeScene.getGame().getVariables().get("Name1").setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("NewName")));
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay1Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreDisplay1Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score1")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreDisplay1Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreDisplay1Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Score1")));
 }
-}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName1Objects1.length ;i < len;++i) {
-    gdjs.High_32ScoresCode.GDScoreName1Objects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name1")));
+}{for(var i = 0, len = gdjs.High_32ScoresCode.GDScoreName1Objects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDScoreName1Objects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().get("Name1")));
 }
 }}
 
 }
 
 
-}; //End of gdjs.High_32ScoresCode.eventsList0x6c7b94
+{
+
+
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = false;
+{
+{gdjs.High_32ScoresCode.conditionTrue_1 = gdjs.High_32ScoresCode.condition0IsTrue_0;
+gdjs.High_32ScoresCode.condition0IsTrue_1.val = true;
+{
+gdjs.High_32ScoresCode.condition0IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Controller_X_is_connected.func(runtimeScene, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}gdjs.High_32ScoresCode.conditionTrue_1.val = !gdjs.High_32ScoresCode.condition0IsTrue_1.val;
+}
+}if (gdjs.High_32ScoresCode.condition0IsTrue_0.val) {
+gdjs.High_32ScoresCode.GDContinueObjects2.createFrom(runtimeScene.getObjects("Continue"));
+{for(var i = 0, len = gdjs.High_32ScoresCode.GDContinueObjects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDContinueObjects2[i].setString("Press Space to return to Main Menu");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = false;
+{
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "Xbox", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}if (gdjs.High_32ScoresCode.condition0IsTrue_0.val) {
+gdjs.High_32ScoresCode.GDContinueObjects2.createFrom(runtimeScene.getObjects("Continue"));
+{for(var i = 0, len = gdjs.High_32ScoresCode.GDContinueObjects2.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDContinueObjects2[i].setString("Press 'A' to return to Main Menu");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = false;
+gdjs.High_32ScoresCode.condition1IsTrue_0.val = false;
+{
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "PS4", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}if ( gdjs.High_32ScoresCode.condition0IsTrue_0.val ) {
+{
+gdjs.High_32ScoresCode.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "PS3", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+if (gdjs.High_32ScoresCode.condition1IsTrue_0.val) {
+gdjs.High_32ScoresCode.GDContinueObjects1.createFrom(runtimeScene.getObjects("Continue"));
+{for(var i = 0, len = gdjs.High_32ScoresCode.GDContinueObjects1.length ;i < len;++i) {
+    gdjs.High_32ScoresCode.GDContinueObjects1[i].setString("Press 'Cross' to return to Main Menu");
+}
+}}
+
+}
+
+
+}; //End of gdjs.High_32ScoresCode.eventsList0x6aa6ac
 gdjs.High_32ScoresCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -347,7 +421,7 @@ gdjs.High_32ScoresCode.GDScoreName5Objects1.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.High_32ScoresCode.eventsList0x6c7b94(runtimeScene);} //End of subevents
+gdjs.High_32ScoresCode.eventsList0x6aa6ac(runtimeScene);} //End of subevents
 }
 
 }
@@ -359,10 +433,34 @@ gdjs.High_32ScoresCode.eventsList0x6c7b94(runtimeScene);} //End of subevents
 gdjs.High_32ScoresCode.condition0IsTrue_0.val = false;
 gdjs.High_32ScoresCode.condition1IsTrue_0.val = false;
 {
-gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
+gdjs.High_32ScoresCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "HighScoreDelay");
 }if ( gdjs.High_32ScoresCode.condition0IsTrue_0.val ) {
 {
-gdjs.High_32ScoresCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "HighScoreDelay");
+{gdjs.High_32ScoresCode.conditionTrue_1 = gdjs.High_32ScoresCode.condition1IsTrue_0;
+gdjs.High_32ScoresCode.condition0IsTrue_1.val = false;
+gdjs.High_32ScoresCode.condition1IsTrue_1.val = false;
+gdjs.High_32ScoresCode.condition2IsTrue_1.val = false;
+{
+gdjs.High_32ScoresCode.condition0IsTrue_1.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
+if( gdjs.High_32ScoresCode.condition0IsTrue_1.val ) {
+    gdjs.High_32ScoresCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.High_32ScoresCode.condition1IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "A", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.High_32ScoresCode.condition1IsTrue_1.val ) {
+    gdjs.High_32ScoresCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.High_32ScoresCode.condition2IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "CROSS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.High_32ScoresCode.condition2IsTrue_1.val ) {
+    gdjs.High_32ScoresCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.High_32ScoresCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);

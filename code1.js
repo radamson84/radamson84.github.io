@@ -31,9 +31,76 @@ gdjs.Start_32MenuCode.conditionTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition0IsTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition1IsTrue_0 = {val:false};
 gdjs.Start_32MenuCode.condition2IsTrue_0 = {val:false};
+gdjs.Start_32MenuCode.condition3IsTrue_0 = {val:false};
+gdjs.Start_32MenuCode.conditionTrue_1 = {val:false};
+gdjs.Start_32MenuCode.condition0IsTrue_1 = {val:false};
+gdjs.Start_32MenuCode.condition1IsTrue_1 = {val:false};
+gdjs.Start_32MenuCode.condition2IsTrue_1 = {val:false};
+gdjs.Start_32MenuCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x87f6fc = function(runtimeScene) {
+gdjs.Start_32MenuCode.mapOfGDgdjs_46Start_9532MenuCode_46GDSelectorObjects1Objects = Hashtable.newFrom({"Selector": gdjs.Start_32MenuCode.GDSelectorObjects1});gdjs.Start_32MenuCode.eventsList0x741bbc = function(runtimeScene) {
+
+{
+
+
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
+{
+{gdjs.Start_32MenuCode.conditionTrue_1 = gdjs.Start_32MenuCode.condition0IsTrue_0;
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = true;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Controller_X_is_connected.func(runtimeScene, 1, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}gdjs.Start_32MenuCode.conditionTrue_1.val = !gdjs.Start_32MenuCode.condition0IsTrue_1.val;
+}
+}if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
+gdjs.Start_32MenuCode.GDControlsDisplayObjects2.createFrom(runtimeScene.getObjects("ControlsDisplay"));
+{for(var i = 0, len = gdjs.Start_32MenuCode.GDControlsDisplayObjects2.length ;i < len;++i) {
+    gdjs.Start_32MenuCode.GDControlsDisplayObjects2[i].setString("W, S - Menu Navigation\nSpace - Menu Selection");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "Xbox", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
+gdjs.Start_32MenuCode.GDControlsDisplayObjects2.createFrom(runtimeScene.getObjects("ControlsDisplay"));
+{for(var i = 0, len = gdjs.Start_32MenuCode.GDControlsDisplayObjects2.length ;i < len;++i) {
+    gdjs.Start_32MenuCode.GDControlsDisplayObjects2[i].setString("Dpad/Left Stick - Menu Navigation\n'A' - Menu Selection");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
+gdjs.Start_32MenuCode.condition1IsTrue_0.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "PS4", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}if ( gdjs.Start_32MenuCode.condition0IsTrue_0.val ) {
+{
+gdjs.Start_32MenuCode.condition1IsTrue_0.val = gdjs.evtsExt__Gamepads__C_Controller_type.func(runtimeScene, 1, "PS3", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
+gdjs.Start_32MenuCode.GDControlsDisplayObjects1.createFrom(runtimeScene.getObjects("ControlsDisplay"));
+{for(var i = 0, len = gdjs.Start_32MenuCode.GDControlsDisplayObjects1.length ;i < len;++i) {
+    gdjs.Start_32MenuCode.GDControlsDisplayObjects1[i].setString("Dpad/Left Stick - Menu Navigation\n'Cross' - Menu Selection");
+}
+}}
+
+}
+
+
+}; //End of gdjs.Start_32MenuCode.eventsList0x741bbc
+gdjs.Start_32MenuCode.eventsList0x743ecc = function(runtimeScene) {
 
 {
 
@@ -91,8 +158,8 @@ gdjs.Start_32MenuCode.GDDebugModeSelectionObjects1.createFrom(runtimeScene.getOb
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x87f6fc
-gdjs.Start_32MenuCode.eventsList0x8420f4 = function(runtimeScene) {
+}; //End of gdjs.Start_32MenuCode.eventsList0x743ecc
+gdjs.Start_32MenuCode.eventsList0x7432c4 = function(runtimeScene) {
 
 {
 
@@ -155,13 +222,13 @@ gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if (gdjs.Start_32MenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x87f6fc(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x743ecc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Start_32MenuCode.eventsList0x8420f4
+}; //End of gdjs.Start_32MenuCode.eventsList0x7432c4
 gdjs.Start_32MenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -185,7 +252,10 @@ gdjs.Start_32MenuCode.GDSelectorObjects1.length = 0;
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MenuDelay");
 }{runtimeScene.getGame().getVariables().get("DebugMode").setNumber(0);
 }{runtimeScene.getGame().getVariables().get("Score").setNumber(0);
-}}
+}
+{ //Subevents
+gdjs.Start_32MenuCode.eventsList0x741bbc(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -203,16 +273,40 @@ gdjs.Start_32MenuCode.GDSelectorObjects1.length = 0;
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 gdjs.Start_32MenuCode.condition1IsTrue_0.val = false;
 {
-gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "MenuDelay");
 }if ( gdjs.Start_32MenuCode.condition0IsTrue_0.val ) {
 {
-gdjs.Start_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.5, "MenuDelay");
+{gdjs.Start_32MenuCode.conditionTrue_1 = gdjs.Start_32MenuCode.condition1IsTrue_0;
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
+if( gdjs.Start_32MenuCode.condition0IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "A", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition1IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "CROSS", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition2IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "tick.wav", false, (gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("SoundVolume")) * 20), 1);
 }
 { //Subevents
-gdjs.Start_32MenuCode.eventsList0x8420f4(runtimeScene);} //End of subevents
+gdjs.Start_32MenuCode.eventsList0x7432c4(runtimeScene);} //End of subevents
 }
 
 }
@@ -224,10 +318,34 @@ gdjs.Start_32MenuCode.eventsList0x8420f4(runtimeScene);} //End of subevents
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 gdjs.Start_32MenuCode.condition1IsTrue_0.val = false;
 {
-gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "w");
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.25, "MenuDelay");
 }if ( gdjs.Start_32MenuCode.condition0IsTrue_0.val ) {
 {
-gdjs.Start_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.25, "MenuDelay");
+{gdjs.Start_32MenuCode.conditionTrue_1 = gdjs.Start_32MenuCode.condition1IsTrue_0;
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "w");
+if( gdjs.Start_32MenuCode.condition0IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "UP", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition1IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, 1, "LEFT", "UP", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition2IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
@@ -248,10 +366,34 @@ gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Sel
 gdjs.Start_32MenuCode.condition0IsTrue_0.val = false;
 gdjs.Start_32MenuCode.condition1IsTrue_0.val = false;
 {
-gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "s");
+gdjs.Start_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.25, "MenuDelay");
 }if ( gdjs.Start_32MenuCode.condition0IsTrue_0.val ) {
 {
-gdjs.Start_32MenuCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.25, "MenuDelay");
+{gdjs.Start_32MenuCode.conditionTrue_1 = gdjs.Start_32MenuCode.condition1IsTrue_0;
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = false;
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = false;
+{
+gdjs.Start_32MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "s");
+if( gdjs.Start_32MenuCode.condition0IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition1IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "DOWN", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition1IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+gdjs.Start_32MenuCode.condition2IsTrue_1.val = gdjs.evtsExt__Gamepads__C_Axis_pushed.func(runtimeScene, 1, "LEFT", "DOWN", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+if( gdjs.Start_32MenuCode.condition2IsTrue_1.val ) {
+    gdjs.Start_32MenuCode.conditionTrue_1.val = true;
+}
+}
+{
+}
+}
 }}
 if (gdjs.Start_32MenuCode.condition1IsTrue_0.val) {
 gdjs.Start_32MenuCode.GDSelectorObjects1.createFrom(runtimeScene.getObjects("Selector"));
